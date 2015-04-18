@@ -23,7 +23,7 @@ This app provides provides a Socket.IO input which hosts a Socket.IO server that
 * In the app folder you will find a test.html. Open the file and modify the url in the `io` constructor to point to your host and port.
 * Open test.html in your browser.
 * Check your browser dev tools to see if you get any errors. If not the event was succesfully sent.
-* In Splunk, issue a search for `sourcetype=socket.io`
+* In Splunk, issue a search for `sourcetype=socket.io`. You should see an event with {"message": "Hello from Socket.IO"}.
 
 # License
 
