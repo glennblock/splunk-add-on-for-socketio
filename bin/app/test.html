@@ -1,0 +1,6 @@
+<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+<script>
+    var socket = io('http://localhost:9000'); //change to your host and port
+    socket.emit('event', 'Hello from Socket.IO');
+</script>
