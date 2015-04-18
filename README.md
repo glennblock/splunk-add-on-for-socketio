@@ -16,7 +16,10 @@ This app provides provides a Socket.IO input which hosts a Socket.IO server that
     * `name` (whatever name you want to give this input)
     * `port` (the port socket.io should listen on). If the port is taken an error will be returned.
     * (optional) `origins` (the origins to restrict for CORS, * by default)
-* Save your input, and navigate back to Splunk Home.
+* Save your input, and navigate back to Splunk Home. You should now have a Socket.IO server listening on the specified port waiting for events.
+
+# Sending events to Splunk
+Splunk will listen for a specific message called 'event'. It should contain a single parameter which is a string value.
 
 # Testing out the input
 
