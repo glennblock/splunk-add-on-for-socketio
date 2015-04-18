@@ -28,6 +28,14 @@ Splunk will listen for a specific message called 'event'. It should contain a si
 * Check your browser dev tools to see if you get any errors. If not the event was succesfully sent.
 * In Splunk, issue a search for `sourcetype=socket.io`. You should see an event with {"message": "Hello from Socket.IO"}.
 
+# How it works
+
+This mod input spins up a socket.io server on the specified port. Whenever messages are received of type 'event', then it extracts the message and creates an `Event` which is then written back to Splunk.
+
+## Configuring socket.io, adding Auth etc.
+
+All code for configuring Socket.IO exists in the `app/socketioInput.js` file in the `streamEvents` function. You can easily modify the code to enable Auth or plug in your own middleware.
+
 # License
 
 Apache 2.0
