@@ -60,7 +60,7 @@ exports.streamEvents = function(name, singleInput, eventWriter, done) {
             var event = new Event({
                 stanza: name,
                 sourcetype: "socketio",
-                data: {message:msg}
+                data: {event:msg}
             });
             eventWriter.writeEvent(event);
         });
