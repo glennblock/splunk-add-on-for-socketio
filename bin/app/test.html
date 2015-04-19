@@ -2,7 +2,7 @@
 <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
 <script>
     var socket = io('http://localhost:9000'); //change to your host and port
-    for(var i = 0; i<=100; i++) {
+    for(var i = 1; i<=10000; i++) {
         socket.emit('event', 'Hello from Socket.IO - ' + i);
     }
     alert('Events sent');
