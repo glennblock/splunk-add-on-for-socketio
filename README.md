@@ -3,6 +3,9 @@
 ## Overview
 This app provides provides a Socket.IO input which hosts a Socket.IO server that can receive events which will be fed into Splunk
 
+![Socket.IO and Splunk](https://dl.dropboxusercontent.com/u/6860088/socketio.jpeg)
+
+
 ## Setup
 
 1. Set the `SPLUNK_HOME` environment variable to the root directory of your Splunk instance.
