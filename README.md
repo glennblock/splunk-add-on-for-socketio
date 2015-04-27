@@ -1,4 +1,4 @@
-# Socket.IO app for Splunk
+# Socket.IO App for Splunk
 
 ## Overview
 This app provides provides a Socket.IO input which hosts a [Socket.IO](http://socket.io) server that can receive large volumes of events realtime which will be fed into Splunk.
