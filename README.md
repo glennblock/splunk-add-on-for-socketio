@@ -1,10 +1,9 @@
-# Socket.IO Modular Input
+# Add-on for Socket.IO
 
 ## Overview
-This app provides provides a Socket.IO Moudlar Input which hosts a [Socket.IO](http://socket.io) server that can receive large volumes of events realtime which will be fed into Splunk.
+This add-on provides provides a Socket.IO Modular Input which hosts a [Socket.IO](http://socket.io) server that can receive large volumes of events realtime which will be fed into Splunk.
 
 ![Socket.IO and Splunk](https://dl.dropboxusercontent.com/u/6860088/socketio.jpeg)
-
 
 ## Setup
 
@@ -14,7 +13,7 @@ This app provides provides a Socket.IO Moudlar Input which hosts a [Socket.IO](h
 * Run `npm install`.
 * Restart Splunk
 
-## Adding an input
+## Adding the input
 
 * From Splunk Home, click the Settings menu. Under **Data**, click **Data inputs**, and find `Socket.IO`, the input you just added. **Click Add new on that row**.
 * Fill in:
